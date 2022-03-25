@@ -1,6 +1,5 @@
 # asciiChess
-
-
+###Two-Player Chess game on terminal.
 
 
 

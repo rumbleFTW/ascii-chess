@@ -11,7 +11,8 @@ b2 = imaginaryBoard()
 
 while end:                                                     #MainLoop
     control += 1
-    os.system('cls')
+    if os.name == 'posix': os.system('clear')
+    else: os.system('cls')
     legalCount = 0
     print(message)
     printr(b1)
